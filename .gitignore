@@ -1,0 +1,20 @@
+# Ignorar todo en la raíz
+/*
+
+# ¡Excepto la carpeta sena!
+!/sena/
+
+# Ignorar archivos ocultos y carpetas comunes de entorno
+!.gitignore
+*.log
+*.tmp
+*.bak
+*.DS_Store
+*.class
+*.jar
+*.war
+target/
+build/
+.idea/
+.vscode/
+*.iml

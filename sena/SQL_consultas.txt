@@ -1,0 +1,5 @@
+INSERT INTO t_program (code, name_p, duration, level_p, type_p)
+VALUES (101, 'Programación Básica', '2025-11-01', 'Técnico', 'Presencial');
+
+INSERT INTO apprentice (document, name, last_name, age, address, email, phone_number, code)
+VALUES (123456789, 'María', 'Gómez', 22, 'Cúcuta', 'maria@example.com', 3214567890, 101);
